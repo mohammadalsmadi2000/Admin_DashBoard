@@ -1,0 +1,48 @@
+<View style={{ marginHorizontal: 100 }}>
+<View style={{ alignItems: "center" }}>
+  <Text>Add Logo</Text>
+</View>
+
+<UploadPhotoToDB
+  uid={uid}
+  onUri={fetchUriLogoFromPhoto}
+  title="Pick an image Logo"
+  type="Logo"
+/>
+</View>
+<View style={{ marginHorizontal: 100 }}>
+<View style={{ alignItems: "center" }}>
+  <Text>Add Background</Text>
+</View>
+<UploadPhotoToDB
+  uid={uid}
+  onUri={fetchUriBackgroundFromPhoto}
+  title="Pick an image Background"
+  type="Background"
+/>
+</View>
+
+{uriPhotoLogo && uriPhotoBackground === "no" ? (
+  <Text style={{ color: "red" }}>
+    *Please confirm the photo to be able to upload the ad
+  </Text>
+) : null}
+<Button
+  disabled={
+    uriPhotoLogo === "no" || uriPhotoBackground === "no"
+      ? true
+      : false
+  }
+  title="Upload"
+  buttonStyle={{
+    borderColor: "rgba(78, 116, 289, 1)",
+  }}
+  type="outline"
+  titleStyle={{ color: "rgba(78, 116, 289, 1)" }}
+  containerStyle={{
+    width: 200,
+    marginHorizontal: 50,
+    marginVertical: 10,
+  }}
+  onPress={props.onPress.bind(this, object)}
+/>

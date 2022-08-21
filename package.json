@@ -10,12 +10,36 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-community/datetimepicker": "4.0.0",
+    "@react-native-firebase/storage": "^14.5.1",
+    "@react-navigation/native": "^6.0.8",
+    "@ui-kitten/components": "^5.1.2",
+    "@ui-kitten/eva-icons": "^5.1.2",
+    "axios": "^0.26.1",
     "expo": "~44.0.0",
+    "expo-clipboard": "~2.1.0",
+    "expo-dev-client": "~0.8.4",
+    "expo-image-picker": "~12.0.1",
     "expo-status-bar": "~1.2.0",
+    "firebase": "^9.6.9",
+    "native-base": "^3.3.7",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "react-native-cards": "^1.1.4",
+    "react-native-date-picker": "^4.2.0",
+    "react-native-elements": "^3.4.2",
+    "react-native-health-card": "^0.2.2",
+    "react-native-material-cards": "^1.0.16",
+    "react-native-pager-view": "5.4.9",
+    "react-native-paper": "^4.12.0",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-safe-area-view": "^1.1.1",
+    "react-native-svg": "^12.3.0",
+    "react-native-vector-icons": "^9.1.0",
+    "react-native-web": "0.17.1",
+    "react-redux": "^8.0.1",
+    "redux": "^4.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
