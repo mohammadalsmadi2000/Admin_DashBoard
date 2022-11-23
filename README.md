@@ -4,6 +4,7 @@ Admin_DashBoard
 This app is to manage a platform for students to get financial income.
 
 # Administrators login page
+You need a special code that is updated periodically before logging in by administrators...
 ![WhatsApp Image 2022-11-23 at 18 27 44](https://user-images.githubusercontent.com/60603704/203585755-d08290e6-b6db-44b8-a8fc-d56715b48a5b.jpg)
 
 
